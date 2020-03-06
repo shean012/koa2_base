@@ -32,6 +32,6 @@ app.use(onError);
 // parser
 app.use(bodyParser);
 
-
+module.exports = app
 
 app.listen(3000);
